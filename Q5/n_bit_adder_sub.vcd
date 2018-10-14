@@ -1,0 +1,1399 @@
+$date
+	Sun Oct 14 18:04:45 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module test $end
+$var wire 32 ! answer [31:0] $end
+$var wire 1 " c_out $end
+$var wire 1 # overflow $end
+$var reg 1 $ c_in $end
+$var reg 32 % ip1 [31:0] $end
+$var reg 32 & ip2 [31:0] $end
+$scope module nbas $end
+$var wire 1 ' c_in $end
+$var wire 1 " c_out $end
+$var wire 32 ( carry [31:0] $end
+$var wire 1 ) carry_out $end
+$var wire 32 * final_ip2 [31:0] $end
+$var wire 32 + ip1 [31:0] $end
+$var wire 32 , ip2 [31:0] $end
+$var wire 32 - op [31:0] $end
+$var wire 1 # overflow $end
+$scope begin genblk1 $end
+$upscope $end
+$scope begin genblk01 $end
+$upscope $end
+$scope begin genblk001 $end
+$upscope $end
+$scope begin genblk0001 $end
+$upscope $end
+$scope begin genblk00001 $end
+$upscope $end
+$scope begin genblk000001 $end
+$upscope $end
+$scope begin genblk0000001 $end
+$upscope $end
+$scope begin genblk00000001 $end
+$upscope $end
+$scope begin genblk000000001 $end
+$upscope $end
+$scope begin genblk0000000001 $end
+$upscope $end
+$scope begin genblk00000000001 $end
+$upscope $end
+$scope begin genblk000000000001 $end
+$upscope $end
+$scope begin genblk0000000000001 $end
+$upscope $end
+$scope begin genblk00000000000001 $end
+$upscope $end
+$scope begin genblk000000000000001 $end
+$upscope $end
+$scope begin genblk0000000000000001 $end
+$upscope $end
+$scope begin genblk00000000000000001 $end
+$upscope $end
+$scope begin genblk000000000000000001 $end
+$upscope $end
+$scope begin genblk0000000000000000001 $end
+$upscope $end
+$scope begin genblk00000000000000000001 $end
+$upscope $end
+$scope begin genblk000000000000000000001 $end
+$upscope $end
+$scope begin genblk0000000000000000000001 $end
+$upscope $end
+$scope begin genblk00000000000000000000001 $end
+$upscope $end
+$scope begin genblk000000000000000000000001 $end
+$upscope $end
+$scope begin genblk0000000000000000000000001 $end
+$upscope $end
+$scope begin $gen1[25] $end
+$upscope $end
+$scope begin $gen1[26] $end
+$upscope $end
+$scope begin $gen1[27] $end
+$upscope $end
+$scope begin $gen1[28] $end
+$upscope $end
+$scope begin $gen1[29] $end
+$upscope $end
+$scope begin $gen1[30] $end
+$upscope $end
+$scope begin $gen1[31] $end
+$upscope $end
+$scope begin genblk2 $end
+$scope begin genblk3 $end
+$scope module fa $end
+$var wire 1 ' c_in $end
+$var wire 1 . c_out $end
+$var wire 1 / ip1 $end
+$var wire 1 0 ip2 $end
+$var wire 1 1 r1 $end
+$var wire 1 2 r2 $end
+$var wire 1 3 r3 $end
+$var wire 1 4 sum $end
+$scope module h1 $end
+$var wire 1 2 carry $end
+$var wire 1 / ip1 $end
+$var wire 1 0 ip2 $end
+$var wire 1 1 sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 3 carry $end
+$var wire 1 1 ip1 $end
+$var wire 1 ' ip2 $end
+$var wire 1 4 sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk02 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 5 c_in $end
+$var wire 1 6 c_out $end
+$var wire 1 7 ip1 $end
+$var wire 1 8 ip2 $end
+$var wire 1 9 r1 $end
+$var wire 1 : r2 $end
+$var wire 1 ; r3 $end
+$var wire 1 < sum $end
+$scope module h1 $end
+$var wire 1 : carry $end
+$var wire 1 7 ip1 $end
+$var wire 1 8 ip2 $end
+$var wire 1 9 sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 ; carry $end
+$var wire 1 9 ip1 $end
+$var wire 1 5 ip2 $end
+$var wire 1 < sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 = c_in $end
+$var wire 1 > c_out $end
+$var wire 1 ? ip1 $end
+$var wire 1 @ ip2 $end
+$var wire 1 A r1 $end
+$var wire 1 B r2 $end
+$var wire 1 C r3 $end
+$var wire 1 D sum $end
+$scope module h1 $end
+$var wire 1 B carry $end
+$var wire 1 ? ip1 $end
+$var wire 1 @ ip2 $end
+$var wire 1 A sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 C carry $end
+$var wire 1 A ip1 $end
+$var wire 1 = ip2 $end
+$var wire 1 D sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk0002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 E c_in $end
+$var wire 1 F c_out $end
+$var wire 1 G ip1 $end
+$var wire 1 H ip2 $end
+$var wire 1 I r1 $end
+$var wire 1 J r2 $end
+$var wire 1 K r3 $end
+$var wire 1 L sum $end
+$scope module h1 $end
+$var wire 1 J carry $end
+$var wire 1 G ip1 $end
+$var wire 1 H ip2 $end
+$var wire 1 I sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 K carry $end
+$var wire 1 I ip1 $end
+$var wire 1 E ip2 $end
+$var wire 1 L sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk00002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 M c_in $end
+$var wire 1 N c_out $end
+$var wire 1 O ip1 $end
+$var wire 1 P ip2 $end
+$var wire 1 Q r1 $end
+$var wire 1 R r2 $end
+$var wire 1 S r3 $end
+$var wire 1 T sum $end
+$scope module h1 $end
+$var wire 1 R carry $end
+$var wire 1 O ip1 $end
+$var wire 1 P ip2 $end
+$var wire 1 Q sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 S carry $end
+$var wire 1 Q ip1 $end
+$var wire 1 M ip2 $end
+$var wire 1 T sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 U c_in $end
+$var wire 1 V c_out $end
+$var wire 1 W ip1 $end
+$var wire 1 X ip2 $end
+$var wire 1 Y r1 $end
+$var wire 1 Z r2 $end
+$var wire 1 [ r3 $end
+$var wire 1 \ sum $end
+$scope module h1 $end
+$var wire 1 Z carry $end
+$var wire 1 W ip1 $end
+$var wire 1 X ip2 $end
+$var wire 1 Y sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 [ carry $end
+$var wire 1 Y ip1 $end
+$var wire 1 U ip2 $end
+$var wire 1 \ sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk0000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 ] c_in $end
+$var wire 1 ^ c_out $end
+$var wire 1 _ ip1 $end
+$var wire 1 ` ip2 $end
+$var wire 1 a r1 $end
+$var wire 1 b r2 $end
+$var wire 1 c r3 $end
+$var wire 1 d sum $end
+$scope module h1 $end
+$var wire 1 b carry $end
+$var wire 1 _ ip1 $end
+$var wire 1 ` ip2 $end
+$var wire 1 a sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 c carry $end
+$var wire 1 a ip1 $end
+$var wire 1 ] ip2 $end
+$var wire 1 d sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk00000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 e c_in $end
+$var wire 1 f c_out $end
+$var wire 1 g ip1 $end
+$var wire 1 h ip2 $end
+$var wire 1 i r1 $end
+$var wire 1 j r2 $end
+$var wire 1 k r3 $end
+$var wire 1 l sum $end
+$scope module h1 $end
+$var wire 1 j carry $end
+$var wire 1 g ip1 $end
+$var wire 1 h ip2 $end
+$var wire 1 i sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 k carry $end
+$var wire 1 i ip1 $end
+$var wire 1 e ip2 $end
+$var wire 1 l sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 m c_in $end
+$var wire 1 n c_out $end
+$var wire 1 o ip1 $end
+$var wire 1 p ip2 $end
+$var wire 1 q r1 $end
+$var wire 1 r r2 $end
+$var wire 1 s r3 $end
+$var wire 1 t sum $end
+$scope module h1 $end
+$var wire 1 r carry $end
+$var wire 1 o ip1 $end
+$var wire 1 p ip2 $end
+$var wire 1 q sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 s carry $end
+$var wire 1 q ip1 $end
+$var wire 1 m ip2 $end
+$var wire 1 t sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk0000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 u c_in $end
+$var wire 1 v c_out $end
+$var wire 1 w ip1 $end
+$var wire 1 x ip2 $end
+$var wire 1 y r1 $end
+$var wire 1 z r2 $end
+$var wire 1 { r3 $end
+$var wire 1 | sum $end
+$scope module h1 $end
+$var wire 1 z carry $end
+$var wire 1 w ip1 $end
+$var wire 1 x ip2 $end
+$var wire 1 y sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 { carry $end
+$var wire 1 y ip1 $end
+$var wire 1 u ip2 $end
+$var wire 1 | sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk00000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 } c_in $end
+$var wire 1 ~ c_out $end
+$var wire 1 !" ip1 $end
+$var wire 1 "" ip2 $end
+$var wire 1 #" r1 $end
+$var wire 1 $" r2 $end
+$var wire 1 %" r3 $end
+$var wire 1 &" sum $end
+$scope module h1 $end
+$var wire 1 $" carry $end
+$var wire 1 !" ip1 $end
+$var wire 1 "" ip2 $end
+$var wire 1 #" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 %" carry $end
+$var wire 1 #" ip1 $end
+$var wire 1 } ip2 $end
+$var wire 1 &" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 '" c_in $end
+$var wire 1 (" c_out $end
+$var wire 1 )" ip1 $end
+$var wire 1 *" ip2 $end
+$var wire 1 +" r1 $end
+$var wire 1 ," r2 $end
+$var wire 1 -" r3 $end
+$var wire 1 ." sum $end
+$scope module h1 $end
+$var wire 1 ," carry $end
+$var wire 1 )" ip1 $end
+$var wire 1 *" ip2 $end
+$var wire 1 +" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 -" carry $end
+$var wire 1 +" ip1 $end
+$var wire 1 '" ip2 $end
+$var wire 1 ." sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk0000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 /" c_in $end
+$var wire 1 0" c_out $end
+$var wire 1 1" ip1 $end
+$var wire 1 2" ip2 $end
+$var wire 1 3" r1 $end
+$var wire 1 4" r2 $end
+$var wire 1 5" r3 $end
+$var wire 1 6" sum $end
+$scope module h1 $end
+$var wire 1 4" carry $end
+$var wire 1 1" ip1 $end
+$var wire 1 2" ip2 $end
+$var wire 1 3" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 5" carry $end
+$var wire 1 3" ip1 $end
+$var wire 1 /" ip2 $end
+$var wire 1 6" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk00000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 7" c_in $end
+$var wire 1 8" c_out $end
+$var wire 1 9" ip1 $end
+$var wire 1 :" ip2 $end
+$var wire 1 ;" r1 $end
+$var wire 1 <" r2 $end
+$var wire 1 =" r3 $end
+$var wire 1 >" sum $end
+$scope module h1 $end
+$var wire 1 <" carry $end
+$var wire 1 9" ip1 $end
+$var wire 1 :" ip2 $end
+$var wire 1 ;" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 =" carry $end
+$var wire 1 ;" ip1 $end
+$var wire 1 7" ip2 $end
+$var wire 1 >" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 ?" c_in $end
+$var wire 1 @" c_out $end
+$var wire 1 A" ip1 $end
+$var wire 1 B" ip2 $end
+$var wire 1 C" r1 $end
+$var wire 1 D" r2 $end
+$var wire 1 E" r3 $end
+$var wire 1 F" sum $end
+$scope module h1 $end
+$var wire 1 D" carry $end
+$var wire 1 A" ip1 $end
+$var wire 1 B" ip2 $end
+$var wire 1 C" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 E" carry $end
+$var wire 1 C" ip1 $end
+$var wire 1 ?" ip2 $end
+$var wire 1 F" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk0000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 G" c_in $end
+$var wire 1 H" c_out $end
+$var wire 1 I" ip1 $end
+$var wire 1 J" ip2 $end
+$var wire 1 K" r1 $end
+$var wire 1 L" r2 $end
+$var wire 1 M" r3 $end
+$var wire 1 N" sum $end
+$scope module h1 $end
+$var wire 1 L" carry $end
+$var wire 1 I" ip1 $end
+$var wire 1 J" ip2 $end
+$var wire 1 K" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 M" carry $end
+$var wire 1 K" ip1 $end
+$var wire 1 G" ip2 $end
+$var wire 1 N" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk00000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 O" c_in $end
+$var wire 1 P" c_out $end
+$var wire 1 Q" ip1 $end
+$var wire 1 R" ip2 $end
+$var wire 1 S" r1 $end
+$var wire 1 T" r2 $end
+$var wire 1 U" r3 $end
+$var wire 1 V" sum $end
+$scope module h1 $end
+$var wire 1 T" carry $end
+$var wire 1 Q" ip1 $end
+$var wire 1 R" ip2 $end
+$var wire 1 S" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 U" carry $end
+$var wire 1 S" ip1 $end
+$var wire 1 O" ip2 $end
+$var wire 1 V" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk000000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 W" c_in $end
+$var wire 1 X" c_out $end
+$var wire 1 Y" ip1 $end
+$var wire 1 Z" ip2 $end
+$var wire 1 [" r1 $end
+$var wire 1 \" r2 $end
+$var wire 1 ]" r3 $end
+$var wire 1 ^" sum $end
+$scope module h1 $end
+$var wire 1 \" carry $end
+$var wire 1 Y" ip1 $end
+$var wire 1 Z" ip2 $end
+$var wire 1 [" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 ]" carry $end
+$var wire 1 [" ip1 $end
+$var wire 1 W" ip2 $end
+$var wire 1 ^" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk0000000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 _" c_in $end
+$var wire 1 `" c_out $end
+$var wire 1 a" ip1 $end
+$var wire 1 b" ip2 $end
+$var wire 1 c" r1 $end
+$var wire 1 d" r2 $end
+$var wire 1 e" r3 $end
+$var wire 1 f" sum $end
+$scope module h1 $end
+$var wire 1 d" carry $end
+$var wire 1 a" ip1 $end
+$var wire 1 b" ip2 $end
+$var wire 1 c" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 e" carry $end
+$var wire 1 c" ip1 $end
+$var wire 1 _" ip2 $end
+$var wire 1 f" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk00000000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 g" c_in $end
+$var wire 1 h" c_out $end
+$var wire 1 i" ip1 $end
+$var wire 1 j" ip2 $end
+$var wire 1 k" r1 $end
+$var wire 1 l" r2 $end
+$var wire 1 m" r3 $end
+$var wire 1 n" sum $end
+$scope module h1 $end
+$var wire 1 l" carry $end
+$var wire 1 i" ip1 $end
+$var wire 1 j" ip2 $end
+$var wire 1 k" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 m" carry $end
+$var wire 1 k" ip1 $end
+$var wire 1 g" ip2 $end
+$var wire 1 n" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk000000000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 o" c_in $end
+$var wire 1 p" c_out $end
+$var wire 1 q" ip1 $end
+$var wire 1 r" ip2 $end
+$var wire 1 s" r1 $end
+$var wire 1 t" r2 $end
+$var wire 1 u" r3 $end
+$var wire 1 v" sum $end
+$scope module h1 $end
+$var wire 1 t" carry $end
+$var wire 1 q" ip1 $end
+$var wire 1 r" ip2 $end
+$var wire 1 s" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 u" carry $end
+$var wire 1 s" ip1 $end
+$var wire 1 o" ip2 $end
+$var wire 1 v" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk0000000000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 w" c_in $end
+$var wire 1 x" c_out $end
+$var wire 1 y" ip1 $end
+$var wire 1 z" ip2 $end
+$var wire 1 {" r1 $end
+$var wire 1 |" r2 $end
+$var wire 1 }" r3 $end
+$var wire 1 ~" sum $end
+$scope module h1 $end
+$var wire 1 |" carry $end
+$var wire 1 y" ip1 $end
+$var wire 1 z" ip2 $end
+$var wire 1 {" sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 }" carry $end
+$var wire 1 {" ip1 $end
+$var wire 1 w" ip2 $end
+$var wire 1 ~" sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk00000000000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 !# c_in $end
+$var wire 1 "# c_out $end
+$var wire 1 ## ip1 $end
+$var wire 1 $# ip2 $end
+$var wire 1 %# r1 $end
+$var wire 1 &# r2 $end
+$var wire 1 '# r3 $end
+$var wire 1 (# sum $end
+$scope module h1 $end
+$var wire 1 &# carry $end
+$var wire 1 ## ip1 $end
+$var wire 1 $# ip2 $end
+$var wire 1 %# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 '# carry $end
+$var wire 1 %# ip1 $end
+$var wire 1 !# ip2 $end
+$var wire 1 (# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk000000000000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 )# c_in $end
+$var wire 1 *# c_out $end
+$var wire 1 +# ip1 $end
+$var wire 1 ,# ip2 $end
+$var wire 1 -# r1 $end
+$var wire 1 .# r2 $end
+$var wire 1 /# r3 $end
+$var wire 1 0# sum $end
+$scope module h1 $end
+$var wire 1 .# carry $end
+$var wire 1 +# ip1 $end
+$var wire 1 ,# ip2 $end
+$var wire 1 -# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 /# carry $end
+$var wire 1 -# ip1 $end
+$var wire 1 )# ip2 $end
+$var wire 1 0# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin genblk0000000000000000000000002 $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 1# c_in $end
+$var wire 1 2# c_out $end
+$var wire 1 3# ip1 $end
+$var wire 1 4# ip2 $end
+$var wire 1 5# r1 $end
+$var wire 1 6# r2 $end
+$var wire 1 7# r3 $end
+$var wire 1 8# sum $end
+$scope module h1 $end
+$var wire 1 6# carry $end
+$var wire 1 3# ip1 $end
+$var wire 1 4# ip2 $end
+$var wire 1 5# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 7# carry $end
+$var wire 1 5# ip1 $end
+$var wire 1 1# ip2 $end
+$var wire 1 8# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin $gen2[25] $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 9# c_in $end
+$var wire 1 :# c_out $end
+$var wire 1 ;# ip1 $end
+$var wire 1 <# ip2 $end
+$var wire 1 =# r1 $end
+$var wire 1 ># r2 $end
+$var wire 1 ?# r3 $end
+$var wire 1 @# sum $end
+$scope module h1 $end
+$var wire 1 ># carry $end
+$var wire 1 ;# ip1 $end
+$var wire 1 <# ip2 $end
+$var wire 1 =# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 ?# carry $end
+$var wire 1 =# ip1 $end
+$var wire 1 9# ip2 $end
+$var wire 1 @# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin $gen2[26] $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 A# c_in $end
+$var wire 1 B# c_out $end
+$var wire 1 C# ip1 $end
+$var wire 1 D# ip2 $end
+$var wire 1 E# r1 $end
+$var wire 1 F# r2 $end
+$var wire 1 G# r3 $end
+$var wire 1 H# sum $end
+$scope module h1 $end
+$var wire 1 F# carry $end
+$var wire 1 C# ip1 $end
+$var wire 1 D# ip2 $end
+$var wire 1 E# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 G# carry $end
+$var wire 1 E# ip1 $end
+$var wire 1 A# ip2 $end
+$var wire 1 H# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin $gen2[27] $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 I# c_in $end
+$var wire 1 J# c_out $end
+$var wire 1 K# ip1 $end
+$var wire 1 L# ip2 $end
+$var wire 1 M# r1 $end
+$var wire 1 N# r2 $end
+$var wire 1 O# r3 $end
+$var wire 1 P# sum $end
+$scope module h1 $end
+$var wire 1 N# carry $end
+$var wire 1 K# ip1 $end
+$var wire 1 L# ip2 $end
+$var wire 1 M# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 O# carry $end
+$var wire 1 M# ip1 $end
+$var wire 1 I# ip2 $end
+$var wire 1 P# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin $gen2[28] $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 Q# c_in $end
+$var wire 1 R# c_out $end
+$var wire 1 S# ip1 $end
+$var wire 1 T# ip2 $end
+$var wire 1 U# r1 $end
+$var wire 1 V# r2 $end
+$var wire 1 W# r3 $end
+$var wire 1 X# sum $end
+$scope module h1 $end
+$var wire 1 V# carry $end
+$var wire 1 S# ip1 $end
+$var wire 1 T# ip2 $end
+$var wire 1 U# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 W# carry $end
+$var wire 1 U# ip1 $end
+$var wire 1 Q# ip2 $end
+$var wire 1 X# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin $gen2[29] $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 Y# c_in $end
+$var wire 1 Z# c_out $end
+$var wire 1 [# ip1 $end
+$var wire 1 \# ip2 $end
+$var wire 1 ]# r1 $end
+$var wire 1 ^# r2 $end
+$var wire 1 _# r3 $end
+$var wire 1 `# sum $end
+$scope module h1 $end
+$var wire 1 ^# carry $end
+$var wire 1 [# ip1 $end
+$var wire 1 \# ip2 $end
+$var wire 1 ]# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 _# carry $end
+$var wire 1 ]# ip1 $end
+$var wire 1 Y# ip2 $end
+$var wire 1 `# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin $gen2[30] $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 a# c_in $end
+$var wire 1 b# c_out $end
+$var wire 1 c# ip1 $end
+$var wire 1 d# ip2 $end
+$var wire 1 e# r1 $end
+$var wire 1 f# r2 $end
+$var wire 1 g# r3 $end
+$var wire 1 h# sum $end
+$scope module h1 $end
+$var wire 1 f# carry $end
+$var wire 1 c# ip1 $end
+$var wire 1 d# ip2 $end
+$var wire 1 e# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 g# carry $end
+$var wire 1 e# ip1 $end
+$var wire 1 a# ip2 $end
+$var wire 1 h# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin $gen2[31] $end
+$scope begin genblk4 $end
+$scope module fa $end
+$var wire 1 i# c_in $end
+$var wire 1 j# c_out $end
+$var wire 1 k# ip1 $end
+$var wire 1 l# ip2 $end
+$var wire 1 m# r1 $end
+$var wire 1 n# r2 $end
+$var wire 1 o# r3 $end
+$var wire 1 p# sum $end
+$scope module h1 $end
+$var wire 1 n# carry $end
+$var wire 1 k# ip1 $end
+$var wire 1 l# ip2 $end
+$var wire 1 m# sum $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 o# carry $end
+$var wire 1 m# ip1 $end
+$var wire 1 i# ip2 $end
+$var wire 1 p# sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0p#
+0o#
+0n#
+0m#
+0l#
+0k#
+0j#
+0i#
+0h#
+0g#
+0f#
+0e#
+0d#
+0c#
+0b#
+0a#
+0`#
+0_#
+0^#
+0]#
+0\#
+0[#
+0Z#
+0Y#
+0X#
+0W#
+0V#
+0U#
+0T#
+0S#
+0R#
+0Q#
+0P#
+0O#
+0N#
+0M#
+0L#
+0K#
+0J#
+0I#
+0H#
+0G#
+0F#
+0E#
+0D#
+0C#
+0B#
+0A#
+0@#
+0?#
+0>#
+0=#
+0<#
+0;#
+0:#
+09#
+08#
+07#
+06#
+05#
+04#
+03#
+02#
+01#
+00#
+0/#
+0.#
+0-#
+0,#
+0+#
+0*#
+0)#
+0(#
+0'#
+0&#
+0%#
+0$#
+0##
+0"#
+0!#
+0~"
+0}"
+0|"
+0{"
+0z"
+0y"
+0x"
+0w"
+0v"
+0u"
+0t"
+0s"
+0r"
+0q"
+0p"
+0o"
+0n"
+0m"
+0l"
+0k"
+0j"
+0i"
+0h"
+0g"
+0f"
+0e"
+0d"
+0c"
+0b"
+0a"
+0`"
+0_"
+0^"
+0]"
+0\"
+0["
+0Z"
+0Y"
+0X"
+0W"
+0V"
+0U"
+0T"
+0S"
+0R"
+0Q"
+0P"
+0O"
+0N"
+0M"
+0L"
+0K"
+0J"
+0I"
+0H"
+0G"
+0F"
+0E"
+0D"
+0C"
+0B"
+0A"
+0@"
+0?"
+0>"
+0="
+0<"
+0;"
+0:"
+09"
+08"
+07"
+06"
+05"
+04"
+03"
+02"
+01"
+00"
+0/"
+1."
+0-"
+0,"
+0+"
+0*"
+0)"
+0("
+1'"
+1&"
+0%"
+1$"
+0#"
+1""
+1!"
+1~
+1}
+0|
+1{
+0z
+1y
+0x
+1w
+1v
+1u
+0t
+1s
+0r
+1q
+0p
+1o
+1n
+1m
+0l
+0k
+1j
+0i
+1h
+1g
+1f
+0e
+1d
+0c
+0b
+1a
+0`
+1_
+0^
+0]
+1\
+0[
+0Z
+0Y
+0X
+0W
+0V
+1U
+0T
+1S
+0R
+1Q
+0P
+1O
+1N
+1M
+1L
+0K
+1J
+0I
+1H
+1G
+1F
+1E
+1D
+0C
+1B
+0A
+1@
+1?
+1>
+1=
+0<
+0;
+1:
+09
+18
+17
+16
+05
+14
+03
+02
+11
+10
+0/
+0.
+b110001101101 -
+b10010001111 ,
+b11111011110 +
+b10010001111 *
+0)
+b11110011110 (
+0'
+b10010001111 &
+b11111011110 %
+0$
+0#
+z"
+b110001101101 !
+$end
+#100
+1)
+1j#
+1o#
+0#
+1i#
+1b#
+1g#
+1a#
+1Z#
+1_#
+1Y#
+1R#
+1W#
+1Q#
+1J#
+1O#
+1I#
+1B#
+1G#
+1A#
+1:#
+1?#
+19#
+12#
+17#
+11#
+1*#
+1/#
+1)#
+1"#
+1'#
+1!#
+1x"
+1}"
+1w"
+1p"
+1u"
+1o"
+1h"
+1m"
+1g"
+1`"
+1e"
+1_"
+1X"
+1]"
+1W"
+1P"
+1U"
+1O"
+1H"
+1M"
+1G"
+1@"
+1E"
+1?"
+18"
+1="
+0=
+17"
+06
+10"
+1<
+15"
+1]
+1k
+1/"
+0E
+0M
+1V
+1e
+1m
+1'"
+1("
+1D
+0C
+0>
+1L
+0K
+0F
+0T
+0S
+0\
+1[
+1d
+1^
+0l
+1f
+1t
+0s
+1|
+0{
+0&"
+1%"
+1~
+0."
+1-"
+06"
+0>"
+0F"
+0N"
+0V"
+0^"
+0f"
+0n"
+0v"
+0~"
+0(#
+00#
+08#
+0@#
+0H#
+0P#
+0X#
+0`#
+0h#
+0p#
+0;
+01
+19
+0:
+1A
+0B
+1I
+0J
+0Q
+1R
+1Y
+0a
+1b
+1i
+0j
+0q
+1r
+0y
+1z
+1#"
+0$"
+1+"
+13"
+1;"
+1C"
+1K"
+1S"
+1["
+1c"
+1k"
+1s"
+1{"
+1%#
+1-#
+15#
+1=#
+1E#
+1M#
+1U#
+1]#
+1e#
+1m#
+05
+00
+08
+0@
+0H
+1P
+1X
+1`
+0h
+1p
+1x
+0""
+1*"
+12"
+1:"
+1B"
+1J"
+1R"
+1Z"
+1b"
+1j"
+1r"
+1z"
+1$#
+1,#
+14#
+1<#
+1D#
+1L#
+1T#
+1\#
+1d#
+1l#
+0.
+b11111111111111111111111111110000 (
+b11111111111111111111101101110000 *
+14
+b1101001111 !
+b1101001111 -
+03
+1$
+1'
+#300
