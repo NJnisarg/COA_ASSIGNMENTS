@@ -1,0 +1,54 @@
+#! /usr/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_7)";
+:vpi_time_precision - 9;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x2464690 .scope module, "test" "test" 2 12;
+ .timescale -9 -9;
+v0x24a9e00_0 .net "carry", 0 0, L_0x24aa260; 1 drivers
+v0x24a9ed0_0 .var "ip1", 0 0;
+v0x24a9f80_0 .var "ip2", 0 0;
+v0x24aa030_0 .net "sum", 0 0, L_0x24aa110; 1 drivers
+S_0x2464780 .scope module, "ha" "half_adder" 2 19, 3 10, S_0x2464690;
+ .timescale 0 0;
+L_0x24aa110 .functor XOR 1, v0x24a9ed0_0, v0x24a9f80_0, C4<0>, C4<0>;
+L_0x24aa260 .functor AND 1, v0x24a9ed0_0, v0x24a9f80_0, C4<1>, C4<1>;
+v0x2464870_0 .alias "carry", 0 0, v0x24a9e00_0;
+v0x24a9c10_0 .net "ip1", 0 0, v0x24a9ed0_0; 1 drivers
+v0x24a9cb0_0 .net "ip2", 0 0, v0x24a9f80_0; 1 drivers
+v0x24a9d50_0 .alias "sum", 0 0, v0x24aa030_0;
+    .scope S_0x2464690;
+T_0 ;
+    %vpi_call 2 23 "$dumpfile", "half_adder.vcd";
+    %vpi_call 2 24 "$dumpvars", 1'sb0, S_0x2464690;
+    %end;
+    .thread T_0;
+    .scope S_0x2464690;
+T_1 ;
+    %set/v v0x24a9ed0_0, 0, 1;
+    %set/v v0x24a9f80_0, 0, 1;
+    %delay 20, 0;
+    %set/v v0x24a9ed0_0, 0, 1;
+    %set/v v0x24a9f80_0, 1, 1;
+    %delay 20, 0;
+    %set/v v0x24a9ed0_0, 1, 1;
+    %set/v v0x24a9f80_0, 0, 1;
+    %delay 20, 0;
+    %set/v v0x24a9ed0_0, 1, 1;
+    %set/v v0x24a9f80_0, 1, 1;
+    %end;
+    .thread T_1;
+    .scope S_0x2464690;
+T_2 ;
+    %vpi_call 2 46 "$monitor", "Time=%0d ip1=%b ip2=%b sum=%b carry=%b", $time, v0x24a9ed0_0, v0x24a9f80_0, v0x24aa030_0, v0x24a9e00_0;
+    %delay 80, 0;
+    %vpi_call 2 47 "$finish";
+    %end;
+    .thread T_2;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "test_half_adder.v";
+    "half_adder.v";

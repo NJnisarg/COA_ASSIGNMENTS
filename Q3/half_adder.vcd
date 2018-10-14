@@ -1,0 +1,46 @@
+$date
+	Sun Oct 14 17:36:56 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module test $end
+$var wire 1 ! carry $end
+$var wire 1 " sum $end
+$var reg 1 # ip1 $end
+$var reg 1 $ ip2 $end
+$scope module ha $end
+$var wire 1 ! carry $end
+$var wire 1 % ip1 $end
+$var wire 1 & ip2 $end
+$var wire 1 " sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#20
+1"
+1$
+1&
+#40
+0$
+0&
+1#
+1%
+#60
+0"
+1!
+1$
+1&
+#80
